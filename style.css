@@ -1,0 +1,172 @@
+/* =======================
+
+==========================
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-area{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/burger-tasty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+    
+}
+.text-area h1{
+    margin-left: 60px;
+color: white;
+padding-top: 70px;
+line-height: 1.5em;
+font-size: 60px;
+font-weight: 700;
+font-style: italic;
+margin-bottom: 90px;
+
+}
+.text-area a{
+    margin-left: 90px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+    
+}
+.text-area a:hover{
+   background-color: blue;
+}
+/* =======================
+    second-section
+==========================
+*/
+.second-section{
+display: flex;
+padding-top: 100px;
+
+
+}
+.img-area{
+width: 100%;
+height: 70vh;
+padding: 0 10px;
+
+
+
+
+}
+.img-1{
+    width: 100%;
+    height: 50vh;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 2px solid red;
+}
+.text-area-2{
+    text-align: center;
+    background-color: thistle;
+    font-size: 25px;
+    font-weight: 700;
+   
+}
+/*===================
+third-section
+=====================
+*/
+.third-text-area{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+   border-bottom: 3px solid #add;
+   margin: 0 80px;
+   padding-bottom: 40px;
+    }
+.text-area-3{
+width: 100%;
+height: 20vh;
+
+
+
+}
+.text-area-3 ul {
+ text-align: center;
+ padding-top: 50px;
+
+}
+.text-area-3 ul a{
+    text-decoration: none;
+    border: 2px solid blue;
+    color: black;
+    font-size: 22px;
+    margin: 0 25px;
+    padding: 10px 20px;
+    background-color:wheat;
+    border-radius: 25px;
+
+}
+.text-area-3 ul a:hover{
+    background-color: red;
+}
+ 
+
+
+/* --------------- */
+.container{
+   display: grid;
+   grid-template-columns: repeat(5 ,1fr);
+   gap: 20px;
+padding-top: 100px;
+
+}
+.third-img{
+width: 100%;
+height: 50vh;
+background-image: url(img/img1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px;
+
+}
+.third-img .text{
+    text-align: center;
+    padding-top: 380px;
+}
+.button-area{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.button-area ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+/*===================
+third-section-end
+=====================
+*/
+
+.background{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    margin-top: 200px;
+    background-image:url(img/back\ last.jpg);
+}
