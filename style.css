@@ -1,3 +1,43 @@
+/* nav-area start */
+body{
+    margin: 0px 40px;
+}
+
+
+
+
+
+.header-area{
+    width: 100%;
+    height: auto;
+    background-color:green;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-area{
+    width: 80px;
+}
+.logo{
+    width: 100%;
+    margin-left: 90px;
+    
+}
+
+a{
+    margin-right: 90px;
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+}
+
+
+
+/* nav-area end*/
+
 /* =======================
 
 ==========================
@@ -12,6 +52,7 @@ body{
 *{
     padding: 0;
     margin: 0;
+ 
 }
 .text-area{
     width: 100%;
@@ -19,6 +60,7 @@ body{
     background-image:url(img/burger-tasty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 90px;
 
    
     
@@ -47,7 +89,7 @@ margin-bottom: 90px;
     
 }
 .text-area a:hover{
-   background-color: blue;
+   background-color:blue;
 }
 /* =======================
     second-section
@@ -87,13 +129,14 @@ third-section
 =====================
 */
 .third-text-area{
-    color: red;
-    font-size: 40px;
+    color:#add;
+    font-size: 60px;
     text-align: center;
    border-bottom: 3px solid #add;
    margin: 0 80px;
    padding-bottom: 40px;
-    }
+   text-shadow: 5px 10px 5px blue;
+       }
 .text-area-3{
 width: 100%;
 height: 20vh;
@@ -128,7 +171,7 @@ height: 20vh;
    display: grid;
    grid-template-columns: repeat(5 ,1fr);
    gap: 20px;
-padding-top: 100px;
+    padding-top: 100px;
 
 }
 .third-img{
@@ -146,7 +189,7 @@ border-radius: 10px;
 }
 .button-area{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 200px;
 }
 
 .button-area ul a{
@@ -158,6 +201,9 @@ border-radius: 10px;
     padding: 10px 30px;
     border-radius: 10px;
 }
+.button-area a:hover{
+    background-color: blue;
+}
 /*===================
 third-section-end
 =====================
@@ -168,5 +214,79 @@ third-section-end
     height: 50vh;
     background-size: cover;
     margin-top: 200px;
+    margin-bottom: 50px;
     background-image:url(img/back\ last.jpg);
 }
+.main-icon-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 70px;
+    
+}
+.fa-solid{
+    font-size: 30px;
+   
+    
+}
+.fa-brands{
+    font-size: 30px;
+   
+
+}
+.icon-text-1{
+   margin-top: 30px;
+
+ 
+  
+   
+}
+
+.pragraph-text-1{
+  padding-top: 20px;
+
+}
+
+/* -------------------------- */
+
+
+/* -------------------------
+4th section
+/* -------------------------*/ 
+.bg{
+    width: 100%;
+    margin-bottom: 80px;
+    height: 100vh;
+    background-image: url(img/bg-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ---------------- */
+.footer{
+    background-color: red;
+}
+.row{
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 10px;
+   
+}
+li{
+    list-style: none;
+}
+
+.footer-col{
+ 
+    padding: 0px 100px;
+}
+
+
+
+
+
+
+
+
+
+
