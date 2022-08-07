@@ -1,6 +1,6 @@
 /* nav-area start */
 body{
-    margin: 0px 40px;
+    margin: 0px 50px;
 }
 
 
@@ -11,6 +11,7 @@ body{
     width: 100%;
     height: auto;
     background-color:green;
+    position: fixed;
 }
 .nav-area{
     display: flex;
@@ -60,7 +61,7 @@ body{
     background-image:url(img/burger-tasty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 90px;
+  
 
    
     
