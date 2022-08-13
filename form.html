@@ -10,16 +10,20 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+         background-color: #add;
+      
+        
         }
         .form-main-area{
-          display: flex;
-           justify-content: center;
-          align-items: center;
-          flex-direction: column;
-         width: 100%;
-         height:auto;
+            width: 100%;
+             height:auto;
+            display: flex;
+            margin-bottom: 70px;
+            justify-content: center;
+            align-items: center;
+             flex-direction: column;
      
-         margin-bottom: 50px;
+         
         }
         .form-text{
             font-size: 50px;
@@ -44,8 +48,10 @@
             border-radius: 5px;
            
         }
-   .button{
-  
+  .button-area a{
+    padding: 10px 15px;
+    margin-left: 48%;
+
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -67,7 +73,7 @@
 
 
     
-<form class="form-area">
+<form>
 
     <section class="form-main-area">
         
@@ -93,11 +99,13 @@
       </select>
 <h4  class="input-comment">comments (optional)</h4>
 <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-      <a class="button" href="">submit</a>
-
-
- 
     </section>
+    <div class="button-area">
+        <ul>
+            <a class="button" href="">submit</a>
+        </ul>
+     </div>
+
 </form>
 </body>
 </html>
